@@ -1,0 +1,124 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lawngreen;
+}
+
+h1{
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 9%;
+}
+
+
+.head{
+    background-color:  red;
+    border: 2px solid black;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    margin-top: 1rem; 
+}
+
+.image{
+   
+    margin: auto;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+
+#list{
+    
+    margin-bottom: 1rem;
+    height: 25px;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.but{
+    
+    padding-top: 0;
+    margin-bottom: 0.2rem;
+    padding-bottom: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 8px 8px 8px 8px;
+    background: #eee;
+    font-size: 18px;
+    transition: 2s;
+    width: 50%;
+    margin-left: 25%;
+}
+
+ul li:nth-child(odd){
+    background: lightskyblue;
+    
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+
+.error{
+    display: block;
+    color: white;
+}
+
+p{
+    margin-left: 13%;
+    width: 57%;
+}
+
+.close{
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    padding: 0px 5px;
+    
+}
+
+.close:hover{
+    
+    width: 10%;
+    background-color: red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+
+
+@media screen and (max-width:770px){
+    
+    .head{
+        width: 70%;
+        margin-top: 3rem;
+    }
+    
+    #list{
+        font-size: 15px;
+    }
+
+    ul li{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
